@@ -1,2 +1,7 @@
 ez22sskj37oisflebhnwvw6ltyrvu7hbs3x5tdyszquckjkyw6pq
 https://dev.azure.com/CarbonDevOps
+Add-Type -AssemblyName System.IO.Compression.FileSystem ; [System.IO.Compression.ZipFile]::ExtractToDirectory("$HOME\Downloads\vsts-agent-win-x86-2.146.0.zip", "$PWD")
+
+ .\config.cmd
+ 
+ 
